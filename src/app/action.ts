@@ -1,5 +1,5 @@
 'use server';
 
-export const action = async () => {
-  console.log('hello server action');
+export const action = async (arg: string) => {
+  console.log(`hello server action, ${arg}`);
 };

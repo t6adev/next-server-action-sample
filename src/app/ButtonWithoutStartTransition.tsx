@@ -7,7 +7,7 @@ const ButtonWithoutStartTransition = () => {
     <div>
       <button
         onClick={async () => {
-          action();
+          action('from without startTransition');
         }}
       >
         click
